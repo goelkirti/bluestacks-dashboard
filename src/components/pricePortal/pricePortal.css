@@ -1,0 +1,67 @@
+.modalContainer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.8);
+    /* opacity: 0.8; */
+    /* z-index: 99; */
+}
+
+.modalInner{
+    width: 40%;
+    background: #ffffff;
+    position: relative;
+    left: 0;
+    right: 0;
+    transform: translate(70%,100%);
+}
+
+.imgContainer{
+    /* width: 80px; */
+    position: relative;
+    margin: 10px 10px;
+    display: inline-block;
+}
+
+.imageDet{
+    display:inline-block;
+}
+
+.nameDiv{
+    color: #2B416C;
+    font-weight: 500;
+}
+.regionDiv{
+    color: #9CA2B7;
+    font-size: 14px
+}
+.priceHead{
+    font-size: 24px;
+    font-weight: 700;
+    color: #2B416C;
+    margin: 10px;
+}
+.durDiv{
+    position: relative;
+    display: inline-block;
+    /* float: left; */
+    text-align: left;
+    width: 60%;
+    padding: 0 10px;
+}
+
+.priceDiv{
+    display: inline-block;
+    text-align: right;
+    width: 30%;
+    padding: 0px 10px;
+}
+.closeBtn{
+    border: 2px solid #181B34;
+    color: #181B34;
+    background: none;
+    width: 84px;
+    height: 48px;
+}

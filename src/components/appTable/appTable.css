@@ -1,0 +1,74 @@
+div.react-calendar{
+    display : none;
+    
+}
+
+#appTable{
+    border: 1px solid black;
+    border-spacing: 0px;
+    font-size: 16px;
+    color: #2B416C;    ;
+}
+
+#appTable td, #appTable thead th{
+    border-bottom: 1px solid black;
+}
+
+#appTable thead th{
+    color: #556789;
+    background: #F1F1F4;
+    padding: 10px;
+}
+
+#appTable td{
+    padding: 10px 10px;
+}
+
+.daysDiff{
+    font-size: 14px;
+    color: #7788A3;
+}
+
+.nameDetails > div{
+    display: inline-block;
+}
+
+.nameDetails p {
+    margin: 3px;
+}
+
+.itemLogo{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.iconSpan{
+    margin-left: 5px;
+    /* padding-bottom: 15px; */
+    bottom: 3px;
+    position: relative;
+    cursor: pointer;
+}
+span.iconsCont {
+    margin-right: 15%;
+    cursor: pointer;
+}
+.curCont{
+    background: rgb(235, 198, 104);
+    width: 25px;
+    /* border: 1px solid; */
+    border-radius: 50%;
+    height: 25px;
+    display: inline-block;
+}
+
+svg.fa-dollar-sign{
+    top: 4px;
+    position: relative;
+    left: 8px;
+}
+.priceTxt{
+    display: inline-block;
+    position: relative;
+    top: 3px;
+}
